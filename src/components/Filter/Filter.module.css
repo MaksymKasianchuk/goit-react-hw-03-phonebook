@@ -1,0 +1,24 @@
+.filterLabel {
+    display: flex;
+    flex-direction: column;
+  
+}
+.filterText {
+  margin-bottom: 10px;
+  color: rgb(182, 181, 180);
+}
+  
+  .filterInput {
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: rgb(182, 181, 180);
+  
+    background-color: inherit;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  
+    border-bottom: 1px solid rgb(7, 7, 7);
+  }
+  .filterInput:focus {
+    border-bottom: 1px solid rgb(253, 253, 253);
+  }

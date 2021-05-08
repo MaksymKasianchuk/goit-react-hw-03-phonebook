@@ -1,0 +1,10 @@
+.phoneBookWrapper, .contactsWrapper {
+    text-align: center;
+    width: 40%;
+  }
+  
+  
+  .title, .titleContacts {
+    margin-bottom: 20px;
+    color: rgb(182, 181, 180);
+  }

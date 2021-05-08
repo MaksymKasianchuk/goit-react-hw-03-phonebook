@@ -1,0 +1,46 @@
+.ContactList {
+    padding: 30px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+  }
+  
+  .ContactItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 17px;
+    background: rgb(210, 210, 210);
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.38);
+}
+.contactBtn {
+  padding: 10px 20px;
+  margin-left: 20px;
+
+  border: none;
+  outline: none;
+    color: aliceblue;
+  border-radius: 8px;
+  background:  rgb(190, 10, 0);
+  cursor: pointer;
+
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contactBtn:hover {
+    background:rgb(247, 11, 0);
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.38);
+    color: rgb(182, 181, 180);
+  }
+.phoneNumber {
+  margin-top: 10px;
+  color: black;
+}
+  
+  .notification {
+    margin: 20px 0;
+    font-size: 18px;
+    color: rgb(184, 53, 53);
+  }
